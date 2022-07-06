@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 response = WS.sendRequest(findTestObject('Object Repository/REST API/POST Register-Sucsessfull'))
+
 WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode)
 
 WS.verifyElementPropertyValue(response, 'id', 4)

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All Test" time="8.799" tests="4" failures="0" errors="0">
+   <testsuite name="All Test" tests="4" failures="0" errors="0" time="8.799" skipped="0" timestamp="2022-07-06 19:21:47" hostname="LENOVO - LENOVO-PC" id="Test Suites/Rest API/All Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\EDU WORK\\Persiapan interview\\Technical_Test_Repo\\Reports\\20220706_192142\\Rest API\\All Test\\20220706_192142"/>
+         <property name="logFiles" value="D:\\EDU WORK\\Persiapan interview\\Technical_Test_Repo\\Reports\\20220706_192142\\Rest API\\All Test\\20220706_192142\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - LENOVO-PC"/>
+         <property name="hostAddress" value="192.168.1.17"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+      </properties>
+      <testcase name="Test Cases/Rest API/GET List Users" time="4.592" classname="Test Cases/Rest API/GET List Users" status="PASSED">
+         <system-out><![CDATA[2022-07-06 19:21:47 - [TEST_CASE][PASSED] - Test Cases/Rest API/GET List Users: Test Cases/Rest API/GET List Users
+
+2022-07-06 19:21:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST API/Get List Users")): Send request successfully
+
+2022-07-06 19:21:51 - [MESSAGE][INFO] - HAR: D:\EDU WORK\Persiapan interview\Technical_Test_Repo\Reports\20220706_192142\Rest API\All Test\20220706_192142\requests\main\0.har
+
+2022-07-06 19:21:52 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-06 19:21:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode): Verify response status code successfully
+
+2022-07-06 19:21:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-06 19:21:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].email", "michael.lawson@reqres.in"): Verify element property value successfully
+
+2022-07-06 19:21:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-07-06 19:21:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].first_name", "Michael"): Verify element property value successfully
+
+2022-07-06 19:21:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-07-06 19:21:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].last_name", "Lawson"): Verify element property value successfully
+
+2022-07-06 19:21:52 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rest API/GET Single User" time="0.849" classname="Test Cases/Rest API/GET Single User" status="PASSED">
+         <system-out><![CDATA[2022-07-06 19:21:52 - [TEST_CASE][PASSED] - Test Cases/Rest API/GET Single User: Test Cases/Rest API/GET Single User
+
+2022-07-06 19:21:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST API/GET Singel Users")): Send request successfully
+
+2022-07-06 19:21:53 - [MESSAGE][INFO] - HAR: D:\EDU WORK\Persiapan interview\Technical_Test_Repo\Reports\20220706_192142\Rest API\All Test\20220706_192142\requests\main\1.har
+
+2022-07-06 19:21:53 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-06 19:21:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode): Verify response status code successfully
+
+2022-07-06 19:21:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-06 19:21:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.email", "janet.weaver@reqres.in"): Verify element property value successfully
+
+2022-07-06 19:21:53 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-07-06 19:21:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.first_name", "Janet"): Verify element property value successfully
+
+2022-07-06 19:21:53 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rest API/POST Resgister-Sucsessfull" time="1.543" classname="Test Cases/Rest API/POST Resgister-Sucsessfull" status="PASSED">
+         <system-out><![CDATA[2022-07-06 19:21:53 - [TEST_CASE][PASSED] - Test Cases/Rest API/POST Resgister-Sucsessfull: Test Cases/Rest API/POST Resgister-Sucsessfull
+
+2022-07-06 19:21:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/REST API/POST Register-Sucsessfull")): Send request successfully
+
+2022-07-06 19:21:54 - [MESSAGE][INFO] - HAR: D:\EDU WORK\Persiapan interview\Technical_Test_Repo\Reports\20220706_192142\Rest API\All Test\20220706_192142\requests\main\2.har
+
+2022-07-06 19:21:54 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-06 19:21:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode): Verify response status code successfully
+
+2022-07-06 19:21:54 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-06 19:21:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "id", 4): Verify element property value successfully
+
+2022-07-06 19:21:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-07-06 19:21:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "token", "QpwL5tke4Pnpja7X4"): Verify element property value successfully
+
+2022-07-06 19:21:54 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rest API/PUT Update" time="1.236" classname="Test Cases/Rest API/PUT Update" status="PASSED">
+         <system-out><![CDATA[2022-07-06 19:21:54 - [TEST_CASE][PASSED] - Test Cases/Rest API/PUT Update: Test Cases/Rest API/PUT Update
+
+2022-07-06 19:21:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/REST API/PUT Update")): Send request successfully
+
+2022-07-06 19:21:55 - [MESSAGE][INFO] - HAR: D:\EDU WORK\Persiapan interview\Technical_Test_Repo\Reports\20220706_192142\Rest API\All Test\20220706_192142\requests\main\3.har
+
+2022-07-06 19:21:55 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-06 19:21:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode): Verify response status code successfully
+
+2022-07-06 19:21:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-06 19:21:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "morpheus"): Verify element property value successfully
+
+2022-07-06 19:21:55 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-06 19:21:47 - [TEST_SUITE][PASSED] - All Test: Test Cases/Rest API/PUT Update]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

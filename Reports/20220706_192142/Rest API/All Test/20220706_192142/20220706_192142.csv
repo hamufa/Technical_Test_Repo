@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All Test,,,,2022-07-06 19:21:47,2022-07-06 19:21:55,"8,799s",PASSED
+,,,,,,,
+Test Cases/Rest API/GET List Users,,,,2022-07-06 19:21:47,2022-07-06 19:21:52,"4,592s",PASSED
+"response = sendRequest(findTestObject(""REST API/Get List Users""))",,,,2022-07-06 19:21:48,2022-07-06 19:21:52,"3,608s",PASSED
+"verifyResponseStatusCode(response, StatusCode)",,,,2022-07-06 19:21:52,2022-07-06 19:21:52,"0,033s",PASSED
+"verifyElementPropertyValue(response, ""data[0].email"", ""michael.lawson@reqres.in"")",,,,2022-07-06 19:21:52,2022-07-06 19:21:52,"0,104s",PASSED
+"verifyElementPropertyValue(response, ""data[0].first_name"", ""Michael"")",,,,2022-07-06 19:21:52,2022-07-06 19:21:52,"0,056s",PASSED
+"verifyElementPropertyValue(response, ""data[0].last_name"", ""Lawson"")",,,,2022-07-06 19:21:52,2022-07-06 19:21:52,"0,042s",PASSED
+,,,,,,,
+Test Cases/Rest API/GET Single User,,,,2022-07-06 19:21:52,2022-07-06 19:21:53,"0,849s",PASSED
+"response = sendRequest(findTestObject(""REST API/GET Singel Users""))",,,,2022-07-06 19:21:52,2022-07-06 19:21:53,"0,274s",PASSED
+"verifyResponseStatusCode(response, StatusCode)",,,,2022-07-06 19:21:53,2022-07-06 19:21:53,"0,012s",PASSED
+"verifyElementPropertyValue(response, ""data.email"", ""janet.weaver@reqres.in"")",,,,2022-07-06 19:21:53,2022-07-06 19:21:53,"0,037s",PASSED
+"verifyElementPropertyValue(response, ""data.first_name"", ""Janet"")",,,,2022-07-06 19:21:53,2022-07-06 19:21:53,"0,036s",PASSED
+,,,,,,,
+Test Cases/Rest API/POST Resgister-Sucsessfull,,,,2022-07-06 19:21:53,2022-07-06 19:21:54,"1,543s",PASSED
+"response = sendRequest(findTestObject(""Object Repository/REST API/POST Register-Sucsessfull""))",,,,2022-07-06 19:21:53,2022-07-06 19:21:54,"1,017s",PASSED
+"verifyResponseStatusCode(response, StatusCode)",,,,2022-07-06 19:21:54,2022-07-06 19:21:54,"0,005s",PASSED
+"verifyElementPropertyValue(response, ""id"", 4)",,,,2022-07-06 19:21:54,2022-07-06 19:21:54,"0,039s",PASSED
+"verifyElementPropertyValue(response, ""token"", ""QpwL5tke4Pnpja7X4"")",,,,2022-07-06 19:21:54,2022-07-06 19:21:54,"0,029s",PASSED
+,,,,,,,
+Test Cases/Rest API/PUT Update,,,,2022-07-06 19:21:54,2022-07-06 19:21:55,"1,236s",PASSED
+"response = sendRequest(findTestObject(""Object Repository/REST API/PUT Update""))",,,,2022-07-06 19:21:55,2022-07-06 19:21:55,"0,676s",PASSED
+"verifyResponseStatusCode(response, StatusCode)",,,,2022-07-06 19:21:55,2022-07-06 19:21:55,"0,006s",PASSED
+"verifyElementPropertyValue(response, ""name"", ""morpheus"")",,,,2022-07-06 19:21:55,2022-07-06 19:21:55,"0,041s",PASSED
